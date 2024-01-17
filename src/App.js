@@ -1,6 +1,8 @@
 import "./styles.css";
 import Navbar from "./componnents/Navbar";
 import Footer from "./componnents/Footer";
+import Diplomes from "./componnents/Diploma";
+import Projects from "./componnents/Projects";
 
 export default function App() {
   return (
@@ -21,6 +23,10 @@ export default function App() {
     </p>
 
       <Footer />
+      <switch>
+        <Route path="/Diplomes" component={Diplomes} />
+        <Route path="/Projects" component={Projects} />
+      </switch>
     </div>
   );
 }
