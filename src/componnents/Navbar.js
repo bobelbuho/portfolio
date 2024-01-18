@@ -5,6 +5,7 @@ export default function Navbar() {
         <ul><a href="#">Mes diplomes</a></ul>
         <ul><a href="#">Mes projets</a></ul>
         <ul><a href="#">Contact</a></ul>
+        <button>Home</button>
       </li>
     </div>
   );
